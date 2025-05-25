@@ -23,7 +23,6 @@ def invalid():
     print("Invalid Choice! Enter between 1 to 4!!")
     play()
 
-
 def start():
     print("\n--Number Guessing Game--")
     print("How to Play? Press zero(0).")
@@ -44,9 +43,6 @@ def play():
         print("-------------------------------------------------------------------------------")
         print("1.Play Now \t2.Exit")
         playagain()
-        
-
-
 
     elif(choice == 1):
         print("\nLevel: Easy")
